@@ -1,0 +1,30 @@
+@startuml
+
+title "Messages - Sequence Diagram"
+
+ actor JuanMosquera #red
+
+Application -> AccountService:1 : deposit()
+AccountService ->   AccountDAO : 2 : loadAccount()
+AccountService ->   Account : 3 : deposit()
+AccountService ->   AccountDAO : 5 : updateAccount()
+
+AccountService ->   AccountService : 5.1 : notifyAllObsesrver( command, source)
+AccountService ->   AccountService : 3.1 : notifyAllObsesrver( command, source)
+AccountService ->   AccountService : 1.1 : notifyAllObsesrver( command, source)
+
+Account ->   AccountEntry : 4 <<create>>
+
+AccountService ->   SMSSender : 5.1.1 : notify(String change, Object source);
+AccountService ->   EmailSender : 5.1.1 : notify(String change, Object source);
+AccountService ->   Logger : 5.1.1 : notify(String change, Object source);
+
+AccountService ->   SMSSender : 1.1.1 : notify(String change, Object source);
+AccountService ->   EmailSender : 1.1.1 : notify(String change, Object source);
+AccountService ->   Logger : 1.1.1 : notify(String change, Object source);
+
+AccountService ->   SMSSender : 3.1.1 : notify(String change, Object source);
+AccountService ->   EmailSender : 3.1.1 : notify(String change, Object source);
+AccountService ->   Logger : 3.1.1 : notify(String change, Object source);
+
+@enduml
