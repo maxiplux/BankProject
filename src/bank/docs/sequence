@@ -2,7 +2,8 @@
 
 title "Messages - Sequence Diagram"
 
- actor JuanMosquera #red
+actor JuanMosquera #red
+
 
 Application -> AccountService:1 : deposit()
 AccountService ->   AccountDAO : 2 : loadAccount()
