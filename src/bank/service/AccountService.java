@@ -6,11 +6,9 @@ import bank.dao.AccountDAO;
 import bank.dao.IAccountDAO;
 import bank.domain.Account;
 import bank.domain.Customer;
-import bank.generics.AbstractObservable;
-import bank.generics.Observable;
 
 
-public class AccountService extends AbstractObservable implements IAccountService {
+public class AccountService implements IAccountService {
 	private IAccountDAO accountDAO;
 
 	
@@ -23,7 +21,6 @@ public class AccountService extends AbstractObservable implements IAccountServic
 		Customer customer = new Customer(customerName);
 		account.setCustomer(customer);
 		accountDAO.saveAccount(account);
-		this.notifyAllObsesrver( "createAccount" , account );
 		return account;
 	}
 
@@ -31,14 +28,10 @@ public class AccountService extends AbstractObservable implements IAccountServic
 		Account account = accountDAO.loadAccount(accountNumber);
 		account.deposit(amount);
 		accountDAO.updateAccount(account);
-		this.notifyAllObsesrver( "deposit" , account );
-
-
 	}
 
 	public Account getAccount(long accountNumber) {
 		Account account = accountDAO.loadAccount(accountNumber);
-
 		return account;
 	}
 
@@ -50,7 +43,6 @@ public class AccountService extends AbstractObservable implements IAccountServic
 		Account account = accountDAO.loadAccount(accountNumber);
 		account.withdraw(amount);
 		accountDAO.updateAccount(account);
-		this.notifyAllObsesrver( "withdraw" , account );
 	}
 
 
@@ -61,7 +53,5 @@ public class AccountService extends AbstractObservable implements IAccountServic
 		fromAccount.transferFunds(toAccount, amount, description);
 		accountDAO.updateAccount(fromAccount);
 		accountDAO.updateAccount(toAccount);
-		this.notifyAllObsesrver( "transferFunds" , fromAccount );
-		this.notifyAllObsesrver( "transferFunds" , toAccount );
 	}
 }

@@ -5,30 +5,14 @@ import java.util.Collection;
 import bank.domain.Account;
 import bank.domain.AccountEntry;
 import bank.domain.Customer;
-import bank.generics.Observer;
 import bank.service.AccountService;
 import bank.service.IAccountService;
-import bank.util.EmailSender;
-import bank.util.Logger;
-import bank.util.SMSSender;
+
 
 
 public class Application {
 	public static void main(String[] args) {
 		IAccountService accountService = new AccountService();
-
-		Observer logger = new Logger();
-		Observer smsSender = new SMSSender();
-		Observer emailSender = new EmailSender();
-
-		accountService.addObserver(logger);
-		accountService.addObserver(smsSender);
-		accountService.addObserver(emailSender);
-
-
-
-
-
 		// create 2 accounts;
 		accountService.createAccount(1263862, "Frank Brown");
 		accountService.createAccount(4253892, "John Doe");

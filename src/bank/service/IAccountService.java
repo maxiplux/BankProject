@@ -2,9 +2,8 @@ package bank.service;
 
 import java.util.Collection;
 import bank.domain.Account;
-import bank.generics.Observable;
 
-public interface IAccountService extends Observable {
+public interface IAccountService {
     Account createAccount(long accountNumber, String customerName);
     Account getAccount(long accountNumber);
     Collection<Account> getAllAccounts();
