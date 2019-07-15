@@ -5,7 +5,10 @@ import java.util.Collection;
 import bank.dao.AccountDAO;
 import bank.dao.IAccountDAO;
 import bank.domain.Account;
+import bank.domain.AccountType;
 import bank.domain.Customer;
+import bank.strategy.AccountCheckingStrategyImpl;
+import bank.strategy.AccountSavingStrategyImpl;
 
 
 public class AccountService implements IAccountService {
@@ -16,8 +19,22 @@ public class AccountService implements IAccountService {
 		accountDAO=new AccountDAO();
 	}
 
-	public Account createAccount(long accountNumber, String customerName) {
-		Account account = new Account(accountNumber);
+	public Account createAccount(long accountNumber, String customerName , AccountType accountType) {
+		Account account = new Account(accountNumber, accountType);
+
+
+		// Create account define what is the strategy  and this class  managed the bussines rules.
+		if ( account.getAccountType() ==  AccountType.SAVING )
+		{
+			account.setAccountStrategy( new AccountSavingStrategyImpl());
+		}
+		else
+		{
+			account.setAccountStrategy( new AccountCheckingStrategyImpl());
+
+		}
+
+
 		Customer customer = new Customer(customerName);
 		account.setCustomer(customer);
 		accountDAO.saveAccount(account);
@@ -54,4 +71,13 @@ public class AccountService implements IAccountService {
 		accountDAO.updateAccount(fromAccount);
 		accountDAO.updateAccount(toAccount);
 	}
+
+	@Override
+	public void refreshInterest() {
+		getAllAccounts().forEach( account ->  {
+			account.addInterest();
+		});
+	}
+
+
 }

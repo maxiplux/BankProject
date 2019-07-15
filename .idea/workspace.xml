@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="894c4d82-6e15-40fe-973f-0718a23e4218" name="Default Changelist" comment="asd oservable">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/docs/sequence.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/domain/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/docs/class.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/docs/class.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/service/IAccountService.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/service/IAccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/service/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="77" column="31" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/docs/class.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/docs/beforeStrategy.PNG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/docs/class.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/domain/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="101" column="100" selection-start-line="101" selection-start-column="90" selection-end-line="101" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#188#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#1987#1988#0" expanded="true" />
+                <element signature="e#2035#2036#0" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2141#2142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="UML Sequence" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>accountType</find>
+      <find>@Override</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/bank/generics/ObserverA.java" />
+        <option value="$PROJECT_DIR$/src/bank/generics/Logger.java" />
+        <option value="$PROJECT_DIR$/src/bank/generics/SMSSender.java" />
+        <option value="$PROJECT_DIR$/src/bank/generics/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/bank/domain/AccountEntry.java" />
+        <option value="$PROJECT_DIR$/src/bank/generics/Observer.java" />
+        <option value="$PROJECT_DIR$/src/bank/generics/AbstractObservable.java" />
+        <option value="$PROJECT_DIR$/src/bank/generics/Observable.java" />
+        <option value="$PROJECT_DIR$/src/bank/util/Logger.java" />
+        <option value="$PROJECT_DIR$/src/bank/util/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/bank/util/SMSSender.java" />
+        <option value="$PROJECT_DIR$/src/bank/docs/class.txt" />
+        <option value="$PROJECT_DIR$/src/bank/docs/sequence" />
+        <option value="$PROJECT_DIR$/src/bank/domain/AccountType.java" />
+        <option value="$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java" />
+        <option value="$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/src/bank/Application.java" />
+        <option value="$PROJECT_DIR$/src/bank/service/IAccountService.java" />
+        <option value="$PROJECT_DIR$/src/bank/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/src/bank/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/bank/docs/class.puml" />
+        <option value="$PROJECT_DIR$/src/bank/docs/sequence.puml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+              <item name="bank" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+              <item name="bank" type="1f31426a:PackageElementNode" />
+              <item name="docs" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+              <item name="bank" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+              <item name="bank" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+              <item name="bank" type="1f31426a:PackageElementNode" />
+              <item name="strategy" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bank" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="bank.domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bank.strategy" />
+      <recent name="bank.generics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\bank" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank.Application" />
+      <module name="BankProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\franc\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="894c4d82-6e15-40fe-973f-0718a23e4218" name="Default Changelist" comment="" />
+      <created>1562465362678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562465362678</updated>
+      <workItem from="1562465364966" duration="2366000" />
+      <workItem from="1562467933112" duration="3720000" />
+      <workItem from="1562726149024" duration="124000" />
+      <workItem from="1562802647688" duration="618000" />
+      <workItem from="1563042360329" duration="14000" />
+      <workItem from="1563151240911" duration="417000" />
+      <workItem from="1563151684465" duration="436000" />
+      <workItem from="1563152189335" duration="252000" />
+      <workItem from="1563152459344" duration="414000" />
+      <workItem from="1563152891455" duration="296000" />
+      <workItem from="1563153203562" duration="61000" />
+      <workItem from="1563153278123" duration="133000" />
+      <workItem from="1563153426227" duration="6048000" />
+    </task>
+    <task id="LOCAL-00001" summary="asd oservable">
+      <created>1563151278569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563151278569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix master , to become in bease branch for next homeworks and labs of ASD">
+      <created>1563151769973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563151769973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="asd oservable">
+      <created>1563158519865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563158519865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14899000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24765101" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" weight="0.3295302" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3937677" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Sequence2" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" visible="true" weight="0.41543624" />
+      <window_info anchor="right" id="UML design tool window" order="11" weight="0.3295302" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix master , to become in bease branch for next homeworks and labs of ASD" />
+    <MESSAGE value="asd oservable" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd oservable" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/bank.Application">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bank.Application</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">bank.Application</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-256.0" y="42.0" />
+          <SelectedNodes>
+            <node>bank.Application</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/franc/Downloads/BankProject _1_/BankProject/src/bank">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/bank</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/generics/ObserverB.java" />
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="360.0">com</node>
+            <node x="0.0" y="144.0">netscape</node>
+            <node x="0.0" y="216.0">oracle</node>
+            <node x="154.0" y="360.0">org</node>
+            <node x="308.0" y="360.0">sun</node>
+            <node x="190.0" y="144.0">META-INF</node>
+            <node x="0.0" y="432.0">jdk</node>
+            <node x="329.0" y="288.0">bank</node>
+            <node x="254.0" y="72.0">groovyjarjarasm</node>
+            <node x="168.0" y="288.0">java</node>
+            <node x="175.0" y="216.0">groovy</node>
+            <node x="0.0" y="288.0">javax</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="350.0" y="216.0">javafx</node>
+            <node x="0.0" y="72.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-79.0" y="220.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/util/Logger.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/generics/Observable.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/generics/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/generics/AbstractObservable.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.txt" />
+    <entry file="file://$PROJECT_DIR$/src/bank/util/SMSSender.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/util/EmailSender.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence" />
+    <entry file="uml://JAVA/bank">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bank</OriginalElement>
+          <nodes>
+            <node x="47.04166666666666" y="231.326171875">bank.service</node>
+            <node x="72.984375" y="308.326171875">bank.Application</node>
+            <node x="30.989583333333314" y="154.326171875">bank.dao</node>
+            <node x="50.0" y="17.326171875">bank.domain</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="bank.dao" target="bank.domain">
+              <point x="0.0" y="-13.5" />
+              <point x="85.48958333333331" y="124.326171875" />
+              <point x="121.5" y="124.326171875" />
+              <point x="6.5" y="13.5" />
+            </edge>
+            <edge source="bank.service" target="bank.dao">
+              <point x="-51.375" y="-13.5" />
+              <point x="64.16666666666666" y="206.326171875" />
+              <point x="58.239583333333314" y="206.326171875" />
+              <point x="-27.25" y="13.5" />
+            </edge>
+            <edge source="bank.Application" target="bank.service">
+              <point x="-48.66666666666666" y="-24.5" />
+              <point x="97.31770833333334" y="283.326171875" />
+              <point x="81.29166666666666" y="283.326171875" />
+              <point x="-34.25" y="13.5" />
+            </edge>
+            <edge source="bank.domain" target="bank.domain">
+              <point x="-32.5" y="13.5" />
+              <point x="82.5" y="84.326171875" />
+              <point x="10.0" y="84.326171875" />
+              <point x="10.0" y="27.451171875" />
+              <point x="-65.0" y="-3.375" />
+            </edge>
+            <edge source="bank.Application" target="bank.domain">
+              <point x="48.66666666666666" y="-24.5" />
+              <point x="194.54166666666666" y="134.326171875" />
+              <point x="173.5" y="134.326171875" />
+              <point x="58.5" y="13.5" />
+            </edge>
+            <edge source="bank.service" target="bank.domain">
+              <point x="51.375" y="-13.5" />
+              <point x="166.33333333333331" y="134.326171875" />
+              <point x="160.5" y="134.326171875" />
+              <point x="45.5" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="385.0" y="166.0" />
+          <SelectedNodes>
+            <node>bank.service</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/dao/AccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/afterStrategy.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/beforeStrategy.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/service/IAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="101" column="100" selection-start-line="101" selection-start-column="90" selection-end-line="101" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#188#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BankProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/../pruebas.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../ejemplo.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

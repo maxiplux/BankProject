@@ -7,56 +7,69 @@ title Classes - Class Diagram
 class AccountDAO
 class AccountService
 class Application
-class Account
+
 class Customer
 class AccountEntry
+class Account {
 
-abstract class AbstractObservable{
-     List<Observer> observers = new ArrayList<>();
-     addObserver(Observer observer)
-     removeObserver(Observer observer)
-     notifyAllObsesrver(String command,Object source)
+
+
+
+
+    AccountType getAccountType();
+
+    void setAccountType(AccountType accountType);
+
+    AccountStrategy getAccountStrategy();
+
+    void setAccountStrategy(AccountStrategy accountStrategy);
+
+    long getAccountnumber();
+
+    void setAccountnumber(long accountnumber);
+
+    double getBalance();
+
+    void deposit(double amount);
+
+    void withdraw(double amount);
+
+    void transferFunds(Account toAccount, double amount, String description);
+
+    Customer getCustomer();
+
+    void setCustomer(Customer customer);
+
+    Collection<AccountEntry> getEntryList();
+
+    void addInterest();
+
+
 
 
 }
 
-interface Observable {
-     void notifyAllObsesrver(String command,Object source);
-     void addObserver(Observer observer) ;
-     void removeObserver(Observer observer);
-
+ interface AccountStrategy {
+    public double addInterest(double balance);
 }
+AccountStrategy <|-- AccountCheckingStrategyImpl
+AccountStrategy <|-- AccountSavingStrategyImpl
 
-interface Observer {
-     void notify(String change, Object source);
-}
-
-
-interface Observable {
-    notifyAllObsesrver(String command,Object source);
-     addObserver(Observer observer) ;
-     removeObserver(Observer observer);
-}
+AccountCheckingStrategyImpl <|-- AccountService
+AccountSavingStrategyImpl <|-- AccountService
 
 
-
-AccountDAO <- AccountService
+AccountDAO <|-- AccountService
 Account <- AccountService
+AccountStrategy <- Account
 Customer <- Account
 AccountEntry <- Account
 
-Observable <|- AbstractObservable
 
-AbstractObservable <-  AccountService
+
+
 AccountService <- Application
-class SMSSender
-class EmailSender
-class Logger
 
-
-Observer <|-- SMSSender
-Observer <|-- EmailSender
-Observer <|-- Logger
 
 
 @enduml
