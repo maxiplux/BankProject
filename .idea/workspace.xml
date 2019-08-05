@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894c4d82-6e15-40fe-973f-0718a23e4218" name="Default Changelist" comment="asd oservable">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/docs/sequence.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/domain/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/docs/class.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/docs/class.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/service/IAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,115 +17,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/composite/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/service/IAccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/service/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="77" column="31" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/docs/class.puml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/docs/beforeStrategy.PNG">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/docs/class.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/domain/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="101" column="100" selection-start-line="101" selection-start-column="90" selection-end-line="101" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#174#188#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#1987#1988#0" expanded="true" />
-                <element signature="e#2035#2036#0" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
-                <element signature="e#2118#2119#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="153">
+              <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence.puml">
+        <entry file="uml://JAVA/composite">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>composite</OriginalElement>
+              <nodes>
+                <node x="320.0" y="0.0">composite.CompositeElement</node>
+                <node x="0.0" y="419.0">composite.Application</node>
+                <node x="261.0" y="168.0">composite.Drive</node>
+                <node x="589.0" y="223.5">composite.File</node>
+                <node x="0.0" y="168.0">composite.Directory</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="composite.Directory" target="composite.CompositeElement">
+                  <point x="0.0" y="-103.0" />
+                  <point x="120.5" y="143.0" />
+                  <point x="351.6666666666667" y="143.0" />
+                  <point x="-63.333333333333314" y="59.0" />
+                </edge>
+                <edge source="composite.File" target="composite.CompositeElement">
+                  <point x="0.0" y="-47.5" />
+                  <point x="652.0" y="143.0" />
+                  <point x="478.33333333333337" y="143.0" />
+                  <point x="63.33333333333337" y="59.0" />
+                </edge>
+                <edge source="composite.Drive" target="composite.CompositeElement">
+                  <point x="0.0" y="-103.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="174.5" y="174.5" />
+              <SelectedNodes>
+                <node>composite.Application</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/composite/Drive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/composite/CompositeElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/composite/Directory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/composite/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -147,9 +122,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="UML Sequence" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -157,15 +132,16 @@
     <findStrings>
       <find>accountType</find>
       <find>@Override</find>
+      <find>getSizeInBytes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="composite" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,6 +169,11 @@
         <option value="$PROJECT_DIR$/src/bank/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/bank/docs/class.puml" />
         <option value="$PROJECT_DIR$/src/bank/docs/sequence.puml" />
+        <option value="$PROJECT_DIR$/src/composite/Application.java" />
+        <option value="$PROJECT_DIR$/src/composite/CompositeElement.java" />
+        <option value="$PROJECT_DIR$/src/composite/File.java" />
+        <option value="$PROJECT_DIR$/src/composite/Directory.java" />
+        <option value="$PROJECT_DIR$/src/composite/Drive.java" />
       </list>
     </option>
   </component>
@@ -203,59 +184,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectId" id="1Oz8MqC05GBXbaQax0ZcwDvf8Z8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-              <item name="bank" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-              <item name="bank" type="1f31426a:PackageElementNode" />
-              <item name="docs" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-              <item name="bank" type="1f31426a:PackageElementNode" />
-              <item name="domain" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-              <item name="bank" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-              <item name="bank" type="1f31426a:PackageElementNode" />
-              <item name="strategy" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,21 +213,24 @@
               <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BankProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
+              <item name="composite" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -299,10 +243,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/project/state" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -313,6 +260,12 @@
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="bank.domain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="composite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\composite" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bank.strategy" />
@@ -336,11 +289,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bank.Application" />
+      <option name="MAIN_CLASS_NAME" value="composite.Application" />
       <module name="BankProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bank.*" />
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,6 +331,8 @@
       <workItem from="1563153203562" duration="61000" />
       <workItem from="1563153278123" duration="133000" />
       <workItem from="1563153426227" duration="6048000" />
+      <workItem from="1563751492254" duration="3140000" />
+      <workItem from="1563756150540" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="asd oservable">
       <created>1563151278569</created>
@@ -400,14 +355,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563158519865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="this is my way to implement composite patter.">
+      <created>1563756209279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563756209280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="asd oservable">
+      <created>1563756438213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563756438213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14899000" />
+    <option name="totallyTimeSpent" value="18644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24765101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -418,8 +388,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="simpleUML" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3937677" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3937677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,14 +404,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="PlantUML" order="10" visible="true" weight="0.41543624" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.41543624" />
       <window_info anchor="right" id="UML design tool window" order="11" weight="0.3295302" />
     </layout>
   </component>
@@ -450,6 +420,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix master , to become in bease branch for next homeworks and labs of ASD" />
+    <MESSAGE value="this is my way to implement composite patter." />
     <MESSAGE value="asd oservable" />
     <option name="LAST_COMMIT_MESSAGE" value="asd oservable" />
   </component>
@@ -612,138 +583,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/dao/AccountDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/bank/dao/AccountDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountType.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountF.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/afterStrategy.PNG" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/beforeStrategy.PNG" />
+    <entry file="file://$PROJECT_DIR$/src/bank/domain/Account.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/service/IAccountService.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/service/AccountService.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.puml" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.png" />
+    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence.puml" />
+    <entry file="file://$PROJECT_DIR$/src/bank/docs/homeworkonly/sequence.png" />
+    <entry file="file://$PROJECT_DIR$/src/composite/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/Drive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountType.java">
+    <entry file="file://$PROJECT_DIR$/src/composite/CompositeElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/composite/Directory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/afterStrategy.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/beforeStrategy.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/service/IAccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="77" column="31" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="101" column="100" selection-start-line="101" selection-start-column="90" selection-end-line="101" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#174#188#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2035#2036#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+    <entry file="uml://JAVA/composite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>composite</OriginalElement>
+          <nodes>
+            <node x="320.0" y="0.0">composite.CompositeElement</node>
+            <node x="0.0" y="419.0">composite.Application</node>
+            <node x="261.0" y="168.0">composite.Drive</node>
+            <node x="589.0" y="223.5">composite.File</node>
+            <node x="0.0" y="168.0">composite.Directory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="composite.Directory" target="composite.CompositeElement">
+              <point x="0.0" y="-103.0" />
+              <point x="120.5" y="143.0" />
+              <point x="351.6666666666667" y="143.0" />
+              <point x="-63.333333333333314" y="59.0" />
+            </edge>
+            <edge source="composite.File" target="composite.CompositeElement">
+              <point x="0.0" y="-47.5" />
+              <point x="652.0" y="143.0" />
+              <point x="478.33333333333337" y="143.0" />
+              <point x="63.33333333333337" y="59.0" />
+            </edge>
+            <edge source="composite.Drive" target="composite.CompositeElement">
+              <point x="0.0" y="-103.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="174.5" y="174.5" />
+          <SelectedNodes>
+            <node>composite.Application</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
