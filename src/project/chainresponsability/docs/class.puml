@@ -1,0 +1,37 @@
+@startuml
+
+title Classes - Class Diagram
+
+
+class MostFavoredCustomerOrderHandler {
+    Set<Customer> customers = new HashSet<Customer>();
+     MostFavoredCustomerOrderHandler(Set<Customer> customers) ;
+}
+
+abstract class OrderReceiver  {
+    protected OrderReceiver nextHandler;
+    private Order order;
+    abstract public void handleOrder(Order order);
+}
+
+
+
+class Customer {
+     String name ;
+
+
+}
+class Order {
+    private Integer orderNumber;
+    private  Double totalAmount;
+    private Boolean isInternational ;
+    private  Customer customer;
+}
+DomesticOrder -> OrderReceiver
+InternationalOrder -> OrderReceiver
+LargeOrder -> OrderReceiver
+DomesticOrder -> OrderReceiver
+MostFavoredCustomerOrderHandler -> OrderReceiver
+MostFavoredCustomerOrderHandler "1" *-- "many"   Order
+Order o--   Customer
+@enduml

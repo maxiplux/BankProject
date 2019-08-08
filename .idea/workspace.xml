@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894c4d82-6e15-40fe-973f-0718a23e4218" name="Default Changelist" comment="asd oservable">
+    <list default="true" id="894c4d82-6e15-40fe-973f-0718a23e4218" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/lombok.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/AmazonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/docs/sequence.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/OrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/impl/DomesticOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/impl/InternationalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/impl/LargeOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/impl/MostFavoredCustomerOrderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/chainresponsability/generics/models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BankProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/docs/homework.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/chainresponsability/docs/class.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/generics/CeilingFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/generics/FanState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/generics/impl/HeightState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/generics/impl/LowState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/generics/impl/MediumState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/state/generics/impl/OffState.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,110 +33,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/composite">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>composite</OriginalElement>
-              <nodes>
-                <node x="320.0" y="0.0">composite.CompositeElement</node>
-                <node x="0.0" y="419.0">composite.Application</node>
-                <node x="261.0" y="168.0">composite.Drive</node>
-                <node x="589.0" y="223.5">composite.File</node>
-                <node x="0.0" y="168.0">composite.Directory</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="composite.Directory" target="composite.CompositeElement">
-                  <point x="0.0" y="-103.0" />
-                  <point x="120.5" y="143.0" />
-                  <point x="351.6666666666667" y="143.0" />
-                  <point x="-63.333333333333314" y="59.0" />
-                </edge>
-                <edge source="composite.File" target="composite.CompositeElement">
-                  <point x="0.0" y="-47.5" />
-                  <point x="652.0" y="143.0" />
-                  <point x="478.33333333333337" y="143.0" />
-                  <point x="63.33333333333337" y="59.0" />
-                </edge>
-                <edge source="composite.Drive" target="composite.CompositeElement">
-                  <point x="0.0" y="-103.0" />
-                  <point x="0.0" y="59.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="174.5" y="174.5" />
-              <SelectedNodes>
-                <node>composite.Application</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Constructors</Category>
-                <Category>Fields</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/Drive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/CompositeElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/Directory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,44 +54,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="composite" />
+        <entry key="$PROJECT_DIR$" value="state" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/bank/generics/ObserverA.java" />
-        <option value="$PROJECT_DIR$/src/bank/generics/Logger.java" />
-        <option value="$PROJECT_DIR$/src/bank/generics/SMSSender.java" />
-        <option value="$PROJECT_DIR$/src/bank/generics/EmailSender.java" />
-        <option value="$PROJECT_DIR$/src/bank/domain/AccountEntry.java" />
-        <option value="$PROJECT_DIR$/src/bank/generics/Observer.java" />
-        <option value="$PROJECT_DIR$/src/bank/generics/AbstractObservable.java" />
-        <option value="$PROJECT_DIR$/src/bank/generics/Observable.java" />
-        <option value="$PROJECT_DIR$/src/bank/util/Logger.java" />
-        <option value="$PROJECT_DIR$/src/bank/util/EmailSender.java" />
-        <option value="$PROJECT_DIR$/src/bank/util/SMSSender.java" />
-        <option value="$PROJECT_DIR$/src/bank/docs/class.txt" />
-        <option value="$PROJECT_DIR$/src/bank/docs/sequence" />
-        <option value="$PROJECT_DIR$/src/bank/domain/AccountType.java" />
-        <option value="$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java" />
-        <option value="$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/src/bank/Application.java" />
-        <option value="$PROJECT_DIR$/src/bank/service/IAccountService.java" />
-        <option value="$PROJECT_DIR$/src/bank/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/src/bank/domain/Account.java" />
-        <option value="$PROJECT_DIR$/src/bank/docs/class.puml" />
-        <option value="$PROJECT_DIR$/src/bank/docs/sequence.puml" />
-        <option value="$PROJECT_DIR$/src/composite/Application.java" />
-        <option value="$PROJECT_DIR$/src/composite/CompositeElement.java" />
-        <option value="$PROJECT_DIR$/src/composite/File.java" />
-        <option value="$PROJECT_DIR$/src/composite/Directory.java" />
-        <option value="$PROJECT_DIR$/src/composite/Drive.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -184,66 +66,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectId" id="1Oz8MqC05GBXbaQax0ZcwDvf8Z8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="composite" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="BankProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BankProject" type="616d4139:PackageViewModuleNode" />
-              <item name="composite" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/project/state" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/project/chainresponsability/docs/sequence.png" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -252,8 +85,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -261,18 +95,28 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="bank.domain" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="composite" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\composite" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="project.chainresponsability.generics.models" />
+      <recent name="project.chainresponsability.generics.impl" />
+      <recent name="project.chainresponsability.generics" />
+      <recent name="composite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\project\state" />
+      <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\composite\state" />
+      <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\bank" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="project.chainresponsability.generics.impl" />
       <recent name="bank.strategy" />
       <recent name="bank.generics" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\franc\Downloads\BankProject _1_\BankProject\src\bank" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="project.chainresponsability" />
+      <recent name="project.state" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,8 +132,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="composite.Application" />
+    <configuration name="AmazonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.chainresponsability.AmazonApp" />
       <module name="BankProject" />
       <extension name="coverage">
         <pattern>
@@ -303,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.AmazonApp" />
+        <item itemvalue="Application.AmazonApp" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +177,10 @@
       <workItem from="1563153426227" duration="6048000" />
       <workItem from="1563751492254" duration="3140000" />
       <workItem from="1563756150540" duration="525000" />
+      <workItem from="1564969020935" duration="3190000" />
+      <workItem from="1565140949938" duration="842000" />
+      <workItem from="1565227113921" duration="1267000" />
+      <workItem from="1565228400313" duration="4261000" />
     </task>
     <task id="LOCAL-00001" summary="asd oservable">
       <created>1563151278569</created>
@@ -369,409 +217,58 @@
       <option name="project" value="LOCAL" />
       <updated>1563756438213</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="this is about state patter">
+      <created>1564969165642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564969165642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18644000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24765101" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="simpleUML" order="7" weight="0.3295302" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3937677" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Sequence2" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="PlantUML" order="10" weight="0.41543624" />
-      <window_info anchor="right" id="UML design tool window" order="11" weight="0.3295302" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix master , to become in bease branch for next homeworks and labs of ASD" />
     <MESSAGE value="this is my way to implement composite patter." />
     <MESSAGE value="asd oservable" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd oservable" />
+    <MESSAGE value="this is about state patter" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is about state patter" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="uml://JAVA/bank.Application">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>bank.Application</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">bank.Application</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-256.0" y="42.0" />
-          <SelectedNodes>
-            <node>bank.Application</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/C:/Users/franc/Downloads/BankProject _1_/BankProject/src/bank">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/bank</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/generics/ObserverB.java" />
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="0.0" y="360.0">com</node>
-            <node x="0.0" y="144.0">netscape</node>
-            <node x="0.0" y="216.0">oracle</node>
-            <node x="154.0" y="360.0">org</node>
-            <node x="308.0" y="360.0">sun</node>
-            <node x="190.0" y="144.0">META-INF</node>
-            <node x="0.0" y="432.0">jdk</node>
-            <node x="329.0" y="288.0">bank</node>
-            <node x="254.0" y="72.0">groovyjarjarasm</node>
-            <node x="168.0" y="288.0">java</node>
-            <node x="175.0" y="216.0">groovy</node>
-            <node x="0.0" y="288.0">javax</node>
-            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
-            <node x="350.0" y="216.0">javafx</node>
-            <node x="0.0" y="72.0">groovyjarjarantlr</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-79.0" y="220.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/util/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/generics/Observable.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/generics/Observer.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/generics/AbstractObservable.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.txt" />
-    <entry file="file://$PROJECT_DIR$/src/bank/util/SMSSender.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/util/EmailSender.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence" />
-    <entry file="uml://JAVA/bank">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>bank</OriginalElement>
-          <nodes>
-            <node x="47.04166666666666" y="231.326171875">bank.service</node>
-            <node x="72.984375" y="308.326171875">bank.Application</node>
-            <node x="30.989583333333314" y="154.326171875">bank.dao</node>
-            <node x="50.0" y="17.326171875">bank.domain</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="bank.dao" target="bank.domain">
-              <point x="0.0" y="-13.5" />
-              <point x="85.48958333333331" y="124.326171875" />
-              <point x="121.5" y="124.326171875" />
-              <point x="6.5" y="13.5" />
-            </edge>
-            <edge source="bank.service" target="bank.dao">
-              <point x="-51.375" y="-13.5" />
-              <point x="64.16666666666666" y="206.326171875" />
-              <point x="58.239583333333314" y="206.326171875" />
-              <point x="-27.25" y="13.5" />
-            </edge>
-            <edge source="bank.Application" target="bank.service">
-              <point x="-48.66666666666666" y="-24.5" />
-              <point x="97.31770833333334" y="283.326171875" />
-              <point x="81.29166666666666" y="283.326171875" />
-              <point x="-34.25" y="13.5" />
-            </edge>
-            <edge source="bank.domain" target="bank.domain">
-              <point x="-32.5" y="13.5" />
-              <point x="82.5" y="84.326171875" />
-              <point x="10.0" y="84.326171875" />
-              <point x="10.0" y="27.451171875" />
-              <point x="-65.0" y="-3.375" />
-            </edge>
-            <edge source="bank.Application" target="bank.domain">
-              <point x="48.66666666666666" y="-24.5" />
-              <point x="194.54166666666666" y="134.326171875" />
-              <point x="173.5" y="134.326171875" />
-              <point x="58.5" y="13.5" />
-            </edge>
-            <edge source="bank.service" target="bank.domain">
-              <point x="51.375" y="-13.5" />
-              <point x="166.33333333333331" y="134.326171875" />
-              <point x="160.5" y="134.326171875" />
-              <point x="45.5" y="13.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="385.0" y="166.0" />
-          <SelectedNodes>
-            <node>bank.service</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/dao/AccountDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountType.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountStrategy.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountF.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/AccountEntry.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/afterStrategy.PNG" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/beforeStrategy.PNG" />
-    <entry file="file://$PROJECT_DIR$/src/bank/domain/Account.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/service/IAccountService.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/service/AccountService.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.puml" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/class.png" />
-    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountCheckingStrategyImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/strategy/AccountSavingStrategyImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/sequence.puml" />
-    <entry file="file://$PROJECT_DIR$/src/bank/docs/homeworkonly/sequence.png" />
-    <entry file="file://$PROJECT_DIR$/src/composite/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/Drive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/CompositeElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/Directory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/composite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>composite</OriginalElement>
-          <nodes>
-            <node x="320.0" y="0.0">composite.CompositeElement</node>
-            <node x="0.0" y="419.0">composite.Application</node>
-            <node x="261.0" y="168.0">composite.Drive</node>
-            <node x="589.0" y="223.5">composite.File</node>
-            <node x="0.0" y="168.0">composite.Directory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="composite.Directory" target="composite.CompositeElement">
-              <point x="0.0" y="-103.0" />
-              <point x="120.5" y="143.0" />
-              <point x="351.6666666666667" y="143.0" />
-              <point x="-63.333333333333314" y="59.0" />
-            </edge>
-            <edge source="composite.File" target="composite.CompositeElement">
-              <point x="0.0" y="-47.5" />
-              <point x="652.0" y="143.0" />
-              <point x="478.33333333333337" y="143.0" />
-              <point x="63.33333333333337" y="59.0" />
-            </edge>
-            <edge source="composite.Drive" target="composite.CompositeElement">
-              <point x="0.0" y="-103.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="174.5" y="174.5" />
-          <SelectedNodes>
-            <node>composite.Application</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Constructors</Category>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>BankProject</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/project/chainresponsability/generics/impl/MostFavoredCustomerOrderHandler.java</url>
+          <line>23</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.customers.stream().allMatch( customer -&gt;  order.getCustomer().getName().equals( customer.getName())) " language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

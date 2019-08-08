@@ -1,0 +1,9 @@
+@startuml
+
+AmazonApp -> OrderReceiver
+OrderReceiver -> MostFavoredCustomerOrderHandler : handleOrder()
+MostFavoredCustomerOrderHandler -> LargeOrder : handleOrder()
+LargeOrder -> InternationalOrder : handleOrder()
+InternationalOrder -> DomesticOrder : handleOrder()
+
+@enduml
